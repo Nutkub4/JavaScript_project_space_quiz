@@ -1,86 +1,82 @@
-Space Quiz Game
-Project Description
-An interactive quiz game that tests players' knowledge about space exploration, astronomy, and the cosmos. The game features a beautiful space-themed interface with a dynamic question-and-answer system designed to educate and challenge players of all levels.
+# Space Quiz Game
 
-Chosen Topic
-Space Exploration and Astronomy
+## Project Description
+An interactive quiz game that tests players’ knowledge of space exploration, astronomy, and the cosmos. The game features a space-themed interface and a dynamic question-and-answer system to educate and challenge players of all levels.
 
-I chose this topic because space is fascinating and universally appealing. The questions cover various aspects of space science, from basic solar system facts to advanced astrophysics concepts, making it educational and engaging for a wide audience.
+## Topic
+**Space Exploration and Astronomy**  
+This topic was chosen for its universal appeal. Questions cover everything from basic solar system facts to advanced astrophysics concepts, making the game educational and engaging.
 
-Features
-Core Requirements ✓
-8 questions per difficulty level (24 total questions across all levels)
-Multiple choice format with 4 options per question
-Immediate feedback after each answer (correct/incorrect)
-Score tracking displayed in real-time throughout the quiz
-Motivational feedback based on final performance percentage
-JavaScript Functionality ✓
-Functions: Modular code with dedicated functions for game logic
-startGame() - Initializes the quiz
-loadQuestion() - Displays questions dynamically
-checkAnswer() - Validates player responses
-showResults() - Calculates and displays final score
-resetGame() - Restarts the game
-Event listeners: Responsive to all user interactions
-Control flow: Uses if statements and loops for game logic
-DOM manipulation: Dynamic content updates without page refresh
-Extra Features ⭐
-30-Second Timer - Adds urgency and challenge to each question
-Three Difficulty Levels:
-Easy - Basic space facts
-Medium - Intermediate astronomy knowledge
-Hard - Advanced astrophysics concepts
-Visual Animations:
-Smooth fade-in transitions between screens
-Color-coded feedback (green for correct, red for incorrect)
-Hover effects on buttons
-Progress bar animation
-Enhanced User Interface:
-Beautiful space background image
-Glass-morphism effect on the container
-Progress bar showing quiz completion
-Real-time score and question counter
-Emoji-based results for better engagement
-Detailed Results Screen:
-Shows correct/incorrect answer counts
-Displays percentage score
-Provides personalized feedback messages
-File Structure
+## Features
+
+### Core Features ✅
+- 24 questions (8 per difficulty level: Easy, Medium, Hard)
+- Multiple choice (4 options per question)
+- Immediate feedback on answers
+- Real-time score tracking
+- Motivational feedback at the end
+
+### JavaScript Functionality ✅
+- Modular functions:
+  - `startGame()` - start the quiz
+  - `loadQuestion()` - show questions dynamically
+  - `checkAnswer()` - validate answers
+  - `showResults()` - display final score
+  - `resetGame()` - restart the quiz
+- Responsive event listeners
+- Dynamic DOM updates
+- Game logic using loops and conditions
+
+### Extra Features ⭐
+- **30-Second Timer** for each question
+- **Three Difficulty Levels**:
+  - Easy: Basic space facts
+  - Medium: Intermediate astronomy
+  - Hard: Advanced astrophysics
+- **Visual Animations**: Fade-in screens, color-coded feedback, button hover effects, progress bar animation
+- **Enhanced UI**: Space background, glass-morphism effect, real-time score and question counter, emoji-based results
+- **Detailed Results Screen**: Correct/incorrect counts, percentage score, personalized feedback
+
+## File Structure
+
 space-quiz/
-├── index.html      # Main HTML structure
-├── style.css       # All styling and animations
-├── script.js       # Game logic and functionality
-└── README.md       # Project documentation
-How to Run
-Download all files to the same folder
-Open index.html in any modern web browser
-Choose your difficulty level
-Click "Start Quiz" and begin!
-Technologies Used
-HTML5 - Structure and semantic markup
-CSS3 - Styling, animations, and responsive design
-Vanilla JavaScript - Game logic and interactivity (no frameworks)
-Game Instructions
-Select a difficulty level (Easy, Medium, or Hard)
-Click "Start Quiz" to begin
-Read each question carefully
-Click on your answer choice
-You have 30 seconds per question
-After answering, click "Next Question" to continue
-View your final score and feedback at the end
-Click "Play Again" to retry with a different difficulty
-Scoring System
-10 points per correct answer
-0 points for incorrect answers or timeout
-Maximum score: 80 points (8 questions × 10 points)
-Performance Feedback
-100% - Perfect Score! You're a Space Expert! 🏆
-80-99% - Awesome Job! You Know Your Space! 🌟
-60-79% - Good Work! Keep Learning! 👍
-40-59% - Not Bad! Study More About Space! 📚
-0-39% - Try Again! Practice Makes Perfect! 🚀
+├── index.html # Main HTML
+├── style.css # Styling and animations
+├── script.js # Game logic
+└── README.md # Project documentation
 
-Creator
-Watchapon Wongapinya
+## How to Run
+1. Download all files to the same folder
+2. Open `index.html` in a modern browser
+3. Choose a difficulty level
+4. Click **Start Quiz** to begin
 
-Created as a final project for Introduction to Computer Programming: Part 1
+## Technologies Used
+- HTML5 - Structure and semantic markup
+- CSS3 - Styling, animations, responsive design
+- JavaScript - Game logic and interactivity (no frameworks)
+
+## Game Instructions
+1. Select a difficulty level (Easy, Medium, Hard)
+2. Click **Start Quiz**
+3. Read the question and click your answer
+4. You have 30 seconds per question
+5. Click **Next Question** to continue
+6. View your final score and feedback at the end
+7. Click **Play Again** to retry
+
+## Scoring
+- 10 points per correct answer
+- 0 points for incorrect or timed-out answers
+- Maximum score: 80 points
+
+### Performance Feedback
+- 100% - Perfect Score! You're a Space Expert! 🏆
+- 80-99% - Awesome Job! You Know Your Space! 🌟
+- 60-79% - Good Work! Keep Learning! 👍
+- 40-59% - Not Bad! Study More About Space! 📚
+- 0-39% - Try Again! Practice Makes Perfect! 🚀
+
+## Creator
+**Watchapon Wongapinya**  
+Final project for *Introduction to Computer Programming: Part 1*
